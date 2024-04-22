@@ -6,7 +6,7 @@ require 'vendor/autoload.php'; // Path to autoload.php file
 use Telegram\Bot\Api;
 
 // Set your bot's API token
-$token = 'YOUR_BOT_TOKEN';
+$token = 'https://core.telegram.org/bots/api';
 
 // Create a new instance of the Telegram API
 $telegram = new Api($token);
